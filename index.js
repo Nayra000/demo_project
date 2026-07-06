@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT ;
 const mongoUri = process.env.MONGO_URI ;
 
-app.get('/', (req, res) => {
+app.get('/backend-apis', (req, res) => {
   res.send('Hello from demo app');
 });
 
